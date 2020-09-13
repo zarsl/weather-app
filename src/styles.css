@@ -1,0 +1,140 @@
+body {
+  font-family: Roboto, arial, sans-serif;
+}
+
+form {
+  padding: 0 10px;
+  margin: 10px;
+}
+h1 {
+  color: #7c7c7c;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-top: 25px;
+}
+ul {
+  margin: 0 0 18px;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: #7c7c7c;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+p {
+  color: #7c7c7c;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  width: 115px;
+  position: relative;
+  bottom: -10px;
+  background: white;
+}
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 30px 10px;
+  margin: 20px auto;
+  border-radius: 10px;
+  min-width: 500px;
+  max-width: 600px;
+}
+.upper-section {
+  display: block;
+  width: 400px;
+  padding-bottom: 5px;
+}
+
+.weather-icon {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+  font-size: 18px;
+}
+
+.lower-section {
+  display: block;
+  width: 480px;
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.weekly-forecast {
+  padding-top: 15px 3px;
+  white-space: nowrap;
+  min-width: 470px;
+}
+
+.day-summary,
+.header,
+.footer {
+  font-size: 13px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 14px;
+  margin: 0;
+}
+
+.day-summary {
+  border-radius: 4px;
+  display: inline-block;
+  height: 90px;
+  width: 62px;
+  margin: 1px;
+}
+
+.day-summary .header {
+  color: rgb(186, 186, 186);
+  display: block;
+  padding-top: 7px;
+}
+
+.day-summary .footer {
+  color: rgb(34, 34, 34);
+  display: block;
+  font-weight: 400;
+  height: 14px;
+}
+
+.day-summary .daily-high,
+.day-summary .daily-low {
+  font-weight: 400;
+  height: 14px;
+  line-height: 15px;
+  font-size: 12px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.day-summary .daily-high {
+  color: rgb(135, 135, 135);
+  padding-right: 2px;
+}
+
+.day-summary .daily-low {
+  color: rgb(186, 186, 186);
+}
+
+#weather-description {
+  text-transform: capitalize;
+}
