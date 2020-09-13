@@ -40,7 +40,7 @@ p {
 .weather-app {
   border: 1px solid #dadde1;
   padding: 30px 10px;
-  margin: 20px auto;
+  margin: 20px auto 8px;
   border-radius: 10px;
   min-width: 500px;
   max-width: 600px;
@@ -137,4 +137,9 @@ p {
 
 #weather-description {
   text-transform: capitalize;
+}
+
+#footer {
+  font-size: 13px;
+  padding-left: 95px;
 }
